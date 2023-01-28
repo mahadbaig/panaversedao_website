@@ -9,7 +9,7 @@ const HeroHome = (props: any) => {
   const btnlink = props.btnlink;
   return (
     <Flex
-      margin="25px 0"
+      // margin="25px 0"
       wrap={'wrap'}
     >
       
