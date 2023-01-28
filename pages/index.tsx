@@ -1,12 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "@next/font/google";
+import Gallery from "../Components/gallery";
 import HeroHome from "../Components/hero";
 import LeftHeroText from "../Components/Homeparallax";
-import Btn from "../Components/button";
 import { Container } from "@chakra-ui/react";
 import CenteredHeading from "../Components/centeredheading";
-const inter = Inter({ subsets: ["latin"] });
+import BlogGallery from "../Components/bloggalley";
 
 export default function Home() {
   return (
@@ -18,41 +16,62 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      
-        <Container margin={"50px 0"}>
-          <HeroHome
-            heading="A community to learn, grow and earn in Web 3"
-            desc="Panaverse DAO is a community of web 3 & metaverse developers, designers, trainers and founders that will help you to “Earn While You Learn” in Web 3"
-            btntxt="Join Panaverse"
-            btnlink="/join"
-          />
-        </Container>
+      <Container margin={"50px 0"}>
+        <HeroHome
+          heading="A community to learn, grow and earn in Web 3"
+          desc="Panaverse DAO is a community of web 3 & metaverse developers, designers, trainers and founders that will help you to “Earn While You Learn” in Web 3"
+          btntxt="Join Panaverse"
+          btnlink="/join"
+        />
+      </Container>
 
-        <LeftHeroText
-          heading="The Biggest Web 3 & Metaverse Community In Pakistan!"
-          bgimg="https://picsum.photos/800/700"
-        />
-        <LeftHeroText
-          heading="More Than 5,000 Active Community Members & Students"
-          bgimg="https://picsum.photos/id/237/800/700"
-        />
-        <LeftHeroText
-          heading="150+ Certified Trainers Ready To Lend A Helping Hand"
-          bgimg="https://picsum.photos/800/700"
-        />
-        <LeftHeroText
-          heading="Seminars Conducted At Biggest Universities All Across Pakistan"
-          bgimg="https://picsum.photos/id/237/800/700"
-        />
+      <LeftHeroText
+        heading="The Biggest Web 3 & Metaverse Community In Pakistan!"
+        bgimg="https://picsum.photos/800/700"
+      />
+      <LeftHeroText
+        heading="More Than 5,000 Active Community Members & Students"
+        bgimg="https://picsum.photos/id/237/800/700"
+      />
+      <LeftHeroText
+        heading="150+ Certified Trainers Ready To Lend A Helping Hand"
+        bgimg="https://picsum.photos/800/700"
+      />
+      <LeftHeroText
+        heading="Seminars Conducted At Biggest Universities All Across Pakistan"
+        bgimg="https://picsum.photos/id/237/800/700"
+      />
 
-        <Container
-        marginTop={'50px'}>
-          <CenteredHeading
-            tagline="Members Gallery"
-            heading="Meet The Community"
-          />
-        </Container>
-      
-      </main>
+      <Container marginTop={"50px"}>
+        <CenteredHeading
+          tagline="Members Gallery"
+          heading="Meet The Community"
+        />
+      </Container>
+
+      <Container>
+        <Gallery />
+      </Container>
+
+      <Container marginTop={"50px"}>
+        <CenteredHeading
+          tagline="The Panavserse Blog"
+          heading="Get The Latest Insights"
+        />
+      </Container>
+
+      <Container>
+        <BlogGallery />
+      </Container>
+
+      <Container marginTop={"250"}>
+        <HeroHome
+          heading="Join The Biggest Web 3 Community Where Everyone Is Welcomed!"
+          desc="Panaverse DAO helps individuals who are stuck in a low-paying job by offering a welcome community and a 15-month-long Web 3 Certification program that will make them specialized professionals in Web 3."
+          btntxt="Web 3 Certification"
+          btnlink="/certification"
+        />
+      </Container>
+    </main>
   );
 }
