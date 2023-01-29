@@ -61,8 +61,9 @@ export default function Home() {
         />
       </Container>
 
-      <Container>
-        <Gallery />
+      <Container padding ={'0 25px'}>
+        <Gallery 
+        />
       </Container>
 
       <Container marginTop={"50px"}>
@@ -72,7 +73,8 @@ export default function Home() {
         />
       </Container>
 
-      <Container>
+      <Container
+      padding={'0 25px'}>
         <BlogGallery
         card1 = "Advancement of Web 3 and roles of NextJS"
         card1link = "/"
