@@ -1,7 +1,6 @@
-import { Box } from "@chakra-ui/react";
 import { Flex, Spacer, Center } from "@chakra-ui/react";
 
-const LeftTextHero = (props: any) => {
+const Parallax = (props: any) => {
   const heading = props.heading;
   const bgimg = props.bgimg
   return (
@@ -17,6 +16,8 @@ const LeftTextHero = (props: any) => {
     minH='100vh'
     bgImage={`url(${bgimg})`}
     bgAttachment='fixed'
+    bgRepeat={'no-repeat'}
+    bgSize='cover'
     >
       <h1>{heading}</h1>
     </Flex>
@@ -24,4 +25,4 @@ const LeftTextHero = (props: any) => {
   );
 };
 
-export default LeftTextHero;
+export default Parallax;

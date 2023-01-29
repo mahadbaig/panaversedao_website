@@ -1,6 +1,6 @@
 .btn{
     padding: 10px;
-    border: 2px solid;
+    border: 2px solid transparent;
     width: 200px;
     text-align: center;
     border-radius: 10px;
@@ -12,4 +12,36 @@
 .btn:hover{
     border-radius: 20px;
     background-color: #B4182C;
+}
+
+.outlinebtn{
+    padding: 10px;
+    border: 2px solid #E11E37;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    color: black;
+    background-color: transparent;
+    transition: 0.3s ease;   
+}
+
+.outlinebtn:hover{
+    border-radius: 20px;
+    border-color: #B4182C;
+}
+
+.ghostbtn{
+ padding: 10px;
+    /* border: 2px solid #E11E37; */
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    color: #E11E37;
+    background-color: transparent;
+    transition: 0.3s ease;      
+}
+
+.ghostbtn:hover{
+    text-decoration: underline;
+    color: #B4182C;
 }

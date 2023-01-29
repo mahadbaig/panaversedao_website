@@ -5,7 +5,8 @@ const CenteredHeading = (props: any) => {
   const heading = props.heading;
 
   return (
-    <Box textAlign={'center'}>
+    <Box textAlign={'center'}
+    marginBottom='50px'>
       <h4>{tagline}</h4>
       <h1>{heading}</h1>
     </Box>

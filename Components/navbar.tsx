@@ -9,7 +9,8 @@ import { Link } from "@chakra-ui/react";
 
 const Navbar = () => {
   return (
-    <Flex>
+    <Flex padding={'0 25px'}
+    marginBottom='50px'>
 
       <Box paddingTop="10">
         <Center>
@@ -24,6 +25,7 @@ const Navbar = () => {
           <NavLink pagelink="/events" pagename="Events" />
           <NavLink pagelink="/resources" pagename="Resources" />
           <NavLink pagelink="/mission" pagename="Mission" />
+          <NavLink pagelink="/blog" pagename="Blog" />
         </Center>
       </Box>
 

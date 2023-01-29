@@ -3,3 +3,16 @@
     font-size: 16px;
     padding: 0 35px;
 }
+.navlink:hover{
+    color: #B4182C;
+}
+
+.footlink{
+    color: white;
+    font-size: 16px;
+    padding: 0 35px;
+}
+
+.footlink:hover{
+    color: #E11E37;
+}
