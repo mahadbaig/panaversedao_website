@@ -25,6 +25,7 @@ const Certification = () => {
           btnlink="https://www.piaic.org"
           gbtntxt=""
           gbtnlink=""
+          img = "https://i.imgur.com/C79ptqP.png"
         />
       </Container>
 
@@ -39,7 +40,7 @@ const Certification = () => {
         <CenterLayout
         heading = "Program In A Nutshell"
         desc = "This program is intended for beginners who want to learn Web 3 development from the ground up. Students will learn how to make money and boost exports in the classroom and will begin doing so within 6-9 months of the program's beginning."
-        bgimg = "https://picsum.photos/400"
+        bgimg = "https://i.imgur.com/Q5tJha2.jpeg"
         btntxt = "Register Now"
         btnlink = "https://www.piaic.org/"
         />
@@ -53,6 +54,7 @@ const Certification = () => {
           btnlink="#curriculum"
           gbtntxt=""
           gbtnlink=""
+          img = "https://i.imgur.com/1FQSDix.png"
         />
       </Container>
 
@@ -92,6 +94,7 @@ btntxt = "Read Full Article"
 btnlink = "/"
 gbtntxt = ""
 gbtnlink = ''
+img = "https://i.imgur.com/gOwkVV7.png"
 />
 </Container>
 
@@ -109,7 +112,7 @@ padding={'0 25px'}
         <CenterLayout
         heading = "Become An Early Adaptor & Get Ahead"
         desc = "Web3 and metaverse technologies expand the internet as we know it by introducing novel features and advancements. Become an early adaptor and grow with the technology, earning at the same time."
-        bgimg = "https://picsum.photos/400"
+        bgimg = "https://i.imgur.com/FC7Cmx6.jpg"
         btntxt = "Register Now"
         btnlink = "https://www.piaic.org/"
         />

@@ -7,7 +7,6 @@ import styles from "../styles/blogcard.module.css"
 const BlogCard = (props: any) => {
   const title = props.title;
   const page = props.page;
-  const desc = props.desc
   return (
     <>
       <Link as={NextLink}
@@ -15,13 +14,13 @@ const BlogCard = (props: any) => {
         <Box
           padding={"10"}
           color="black"
-          margin={'50px'}
+          margin={'80px 50px'}
           boxSize={"400"}
         
         >
           <Image 
-          src="https://picsum.photos/400"
-          alt={desc}
+          src="https://i.imgur.com/8Bt3YqB.png"
+          w={'100%'}
           />
           <h2 className = {styles.h2}>{title}</h2>
         </Box>

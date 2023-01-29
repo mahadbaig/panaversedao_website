@@ -22,9 +22,7 @@ const Navbar = () => {
             />
           </Link>
           <NavLink pagelink="/certification" pagename="Certification" />
-          <NavLink pagelink="/events" pagename="Events" />
           <NavLink pagelink="/resources" pagename="Resources" />
-          <NavLink pagelink="/mission" pagename="Mission" />
           <NavLink pagelink="/blog" pagename="Blog" />
         </Center>
       </Box>

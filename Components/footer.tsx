@@ -11,11 +11,11 @@ const Footer = () => {
     padding = '50'
     wrap={'wrap'}
     bg={'black'}>
-          <FootLink pagelink="/certification" pagename="Instagram"  />
-          <FootLink pagelink="/events" pagename="Facebook"  />
-          <FootLink pagelink="/resources" pagename="Linkedin"  />
-          <FootLink pagelink="/mission" pagename="Github"  />
-          <FootLink pagelink="/mission" pagename="Twitter"  />
+          <FootLink pagelink="https://www.instagram.com/piaicofficial/" pagename="Instagram"  />
+          <FootLink pagelink="https://www.facebook.com/panaverse.dao" pagename="Facebook"  />
+          <FootLink pagelink="https://www.linkedin.com/company/panaverse-kolachi/" pagename="Linkedin"  />
+          <FootLink pagelink="https://github.com/panaverse" pagename="Github"  />
+          <FootLink pagelink="https://twitter.com/Panaverse_edu" pagename="Twitter"  />
     </Flex>
   );
 };

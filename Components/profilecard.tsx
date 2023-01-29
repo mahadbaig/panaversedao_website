@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Center } from "@chakra-ui/react";
 import NextLink from "next/link";
 import { Link } from "@chakra-ui/react";
 
@@ -13,13 +13,19 @@ const ProfileCard = (props: any) => {
       href={profile}>
         <Box
           padding={"10"}
-          color="white"
+          color="black"
           margin={"30px 20px 0 20px"}
           boxSize={"400"}
-          bgImage={"url('https://picsum.photos/400')"}
+          bgRepeat='no-repeat'
+          bgSize={'contain'}
+          bgImage={"url('https://i.imgur.com/iU8LmzF.png')"}
         >
+          <Box
+          flexDirection={'column'}
+          paddingTop = '50%'>
           <h2>{onoma}</h2>
           <h4>{profession}</h4>
+          </Box>
         </Box>
       </Link>
     </>
