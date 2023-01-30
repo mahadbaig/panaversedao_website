@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Gallery from "../Components/gallery";
 import HeroHome from "../Components/hero";
 import Parllax from "../Components/parallax";
 import { Container } from "@chakra-ui/react";
@@ -58,11 +57,6 @@ export default function Home() {
         <CenteredHeading
           tagline="Members Gallery"
           heading="Meet The Community"
-        />
-      </Container>
-
-      <Container padding ={'0 25px'}>
-        <Gallery 
         />
       </Container>
 
