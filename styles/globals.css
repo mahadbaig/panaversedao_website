@@ -104,3 +104,47 @@ h6{
   /* margin-bottom: 10px; */
 }
  }
+
+
+ /* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 400.98px) { 
+  
+  h1 {
+    font-weight: 800;
+    font-size: 36px;
+    /* margin-bottom: 10px; */
+    line-height: 50px;
+  }
+  h3{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  h5{
+    font-weight: normal;
+    font-size: 14px;
+  }
+  
+  h4{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  h2{
+    font-size: 24px;
+  }
+  
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    /* margin-bottom: 10px; */
+  
+  }
+  
+  h6{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    /* margin-bottom: 10px; */
+  }
+   }

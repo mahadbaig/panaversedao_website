@@ -16,7 +16,7 @@ const BlogCard = (props: any) => {
           color="black"
           margin={'80px 50px'}
           boxSize={"400"}
-        
+          
         >
           <Image 
           src="https://i.imgur.com/8Bt3YqB.png"

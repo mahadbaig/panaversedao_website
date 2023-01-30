@@ -1,16 +1,13 @@
 import { Box, Center } from "@chakra-ui/react";
-import NextLink from "next/link";
-import { Link } from "@chakra-ui/react";
+import { url } from "inspector";
 
 
 const ProfileCard = (props: any) => {
   const onoma = props.onoma;
   const profession = props.profession;
-  const profile = props.profile
+  const img = props.img
   return (
     <>
-      <Link as={NextLink}
-      href={profile}>
         <Box
           padding={"10"}
           color="black"
@@ -18,16 +15,16 @@ const ProfileCard = (props: any) => {
           boxSize={"400"}
           bgRepeat='no-repeat'
           bgSize={'contain'}
-          bgImage={"url('https://i.imgur.com/iU8LmzF.png')"}
+          bgImage={`url(${img})`}
         >
           <Box
           flexDirection={'column'}
-          paddingTop = '50%'>
+          paddingTop = '50%'
+          padding={'0 25px'}>
           <h2>{onoma}</h2>
           <h4>{profession}</h4>
           </Box>
         </Box>
-      </Link>
     </>
   );
 };

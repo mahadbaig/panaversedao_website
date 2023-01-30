@@ -20,10 +20,11 @@ const HeroHome = (props: any) => {
       marginBottom="50"
     >
       <Flex
-        boxSize={"650"}
+        boxSize={"600"}
         direction="column"
         justifyContent={"center"}
         marginBottom="150"
+        paddingRight={'10'}
       >
         <h1>{heading}</h1>
         <h6>{desc}</h6>
@@ -49,3 +50,4 @@ const HeroHome = (props: any) => {
 };
 
 export default HeroHome;
+
