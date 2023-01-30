@@ -1,5 +1,5 @@
 import { Box, Center } from "@chakra-ui/react";
-import { url } from "inspector";
+
 
 
 const ProfileCard = (props: any) => {
