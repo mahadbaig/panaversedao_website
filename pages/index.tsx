@@ -55,13 +55,6 @@ export default function Home() {
 
       <Container marginTop={"50px"}>
         <CenteredHeading
-          tagline="Members Gallery"
-          heading="Meet The Community"
-        />
-      </Container>
-
-      <Container marginTop={"50px"}>
-        <CenteredHeading
           tagline="The Panavserse Blog"
           heading="Get The Latest Insights"
         />
